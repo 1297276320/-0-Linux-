@@ -55,12 +55,13 @@ sudo bash install.sh
 https://qimeng.ffzjv.cn/api/v1/client/subscribe?token=ac518ececa6b139eca4ab2924e3aad96
 
 # 个人使用推荐购买地址：
-https://qimeng.ffzjv.cn/api/v1/client/subscribe?token=ac518ececa6b139eca4ab2924e3aad96
+https://qimengyun.cc/index.php#/register?code=2gN4MCdN
 
 # 公司共同使用的话推荐购买地址：
 https://paoluz.link/auth/register?code=Xund
 ```
 5. 设置代理节点ui界面
+
 ![alt text](image-1.png)
 ![alt text](image-2.png)
 
@@ -118,7 +119,9 @@ clashui #打开ui设置
 sudo apt install -y ca-certificates curl gnupg lsb-release
 ```
 ![alt text](image-9.png)
+
 2. 添加公钥，确保下载的内容安全（必须）
+
 ```bash
 mkdir -p /etc/apt/keyrings # 如果有这个文件夹，此步骤略，一般都有
 ```
@@ -140,12 +143,15 @@ ARCH=$(dpkg --print-architecture)
 # 将打印出来的结果赋值给ARCH变量
 ```
 ↑这条命令等价于↓
+
 ![alt text](image-11.png)
+
 3.2 获取 Ubuntu 发行版代号，例如 jammy
 ```bash
 CODENAME=$(lsb_release -cs)
 ```
 ↑这条命令等价于↓
+
 ![alt text](image-12.png)
 
 3.3 构建源地址字符串
@@ -283,9 +289,13 @@ source ~/.bashrc
 conda --version
 ```
 好棒~你装上了
+
 ![alt text](image-28.png)
+
 ![](image-29.png)
+
 ![alt text](image-30.png)
+
 好棒！你全都成功了！
 
 ## N、一些小事情
